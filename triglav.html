@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Triglav</title>
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="skeleton.css" />
+    </head>
+    <body>
+        <div style="position: relative;">
+            <button onclick="zobrazMenu()"
+                style="position: absolute; top: 10px; left: 10px;">Menu</button>
+            <div id="menu"
+                style="display: none; position: absolute; top: 50px; left: 10px; background: white; border: 1px solid #ccc; padding: 0.5rem;">
+                <a href="vesna.html" class="skibidi">Vesna</a><br>
+                <a href="morana.html" class="skibidi">Morana</a><br>
+                <a href="radegast.html" class="skibidi">Radegast</a><br>
+                <a href="triglav.html" class="skibidi">Triglav</a><br>
+                <a href="uvod.html" class="skibidi">Úvod</a>
+            </div>
+            <div style="position: relative;">
+                <img src="triglav-socha.png" alt
+                    style="position: absolute; top: 50px; right: 10px; max-height: 500px;">
+            </div>
+            <h1 style="font-weight: bold; text-align: center;">Triglav</h1>
+
+            <div class="container">
+                <p style="text-align: center;">
+                    Triglav, Триглав<br>
+                    Bůh tří světů: nebe, země a podsvětí<br>
+                    Symbol rovnováhy, jednoty a moci<br>
+                    Často zobrazován se třemi hlavami – minulost, přítomnost,
+                    budoucnost<br>
+                    Jeden z nejuctívanějších bohů Pobaltí a západních Slovanů
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="four columns">
+                    <h3 style="text-align: center;">Triglav jako trojjediný
+                        vládce</h3>
+                    <p style="text-align: center;">
+                        Triglav představoval moc nad celým vesmírem – vládl
+                        nebi, zemi i podsvětí. Jeho trojhlavá podoba umožňovala
+                        vnímat různé roviny reality současně. Pro naše předky
+                        byl symbolem rovnováhy a řádu, který udržuje svět v
+                        harmonii.
+                    </p>
+                </div>
+                <div class="four columns">
+                    <h3 style="text-align: center;">Zpodobnění a uctívání</h3>
+                    <p style="text-align: center;">
+                        Triglav býval uctíván v černém chrámu a jeho kněží
+                        nosili černé oděvy. Jeho posvátný kůň byl využíván k
+                        věštění – pohyb zvířete byl interpretován jako znamení.
+                        Někdy měl oči i ústa zavázané, aby „neviděl zlo lidí“.
+                        Jeho sochy se nacházely v Pobaltí, zejména ve Štětíně.
+                    </p>
+                </div>
+                <div class="four columns">
+                    <h3 style="text-align: center;">Triglav dnes</h3>
+                    <p style="text-align: center;">
+                        Ačkoli dnes není tak známý jako někteří jiní bohové,
+                        jeho odkaz přežívá ve folklóru a symbolice. Je zmiňován
+                        v literatuře, hrách a duchovních směrech jako archetyp
+                        rovnováhy mezi silami. Trojice jako symbol zůstává
+                        nadčasová – a Triglav je jejím mocným zosobněním.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div
+                style="display: flex; justify-content: center; align-items: flex-start; gap: 1rem; flex-wrap: wrap;">
+                <img src="triglav.png" alt="Socha Triglava"
+                    style="width: 300px; height: auto; display: block;">
+            </div>
+        </div>
+        <footer>
+            <p style="margin-left: 10px;">© 2025 Ema Němcová 🥀</p>
+        </footer>
+
+        <script>
+        function zobrazMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+    </body>
+</html>

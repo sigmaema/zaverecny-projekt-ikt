@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Radegast</title>
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="stylesheet" href="skeleton.css" />
+    </head>
+    <body>
+        <div style="position: relative;">
+            <button onclick="zobrazMenu()"
+                style="position: absolute; top: 10px; left: 10px;">Menu</button>
+            <div id="menu"
+                style="display: none; position: absolute; top: 50px; left: 10px; background: white; border: 1px solid #ccc; padding: 0.5rem;">
+                <a href="vesna.html" class="skibidi">Vesna</a><br>
+                <a href="morana.html" class="skibidi">Morana</a><br>
+                <a href="radegast.html" class="skibidi">Radegast</a><br>
+                <a href="triglav.html" class="skibidi">Triglav</a><br>
+                <a href="uvod.html" class="skibidi">Úvod</a>
+            </div>
+            <div style="position: relative;">
+                <img src="radegast-pivo.jpeg" alt
+                    style="position: absolute; top: 30px; right: -70px; max-height: 400px;">
+            </div>
+            <h1 style="font-weight: bold; text-align: center;">Radegast</h1>
+
+            <div class="container">
+                <p style="text-align: center;">
+                    Radegast<br>
+                    Bůh pohostinnosti, války, odvahy a plodnosti<br>
+                    Symbol hojnosti, síly a ochrany<br>
+                    Jeho kult byl rozšířen především mezi západními Slovany<br>
+                    Zpodobňován jako válečník s rohem hojnosti a mečem<br>
+                    W nejlepší pivo
+                </p>
+            </div>
+
+            <div class="container">
+                <div class="four columns">
+                    <h3 style="text-align: center;">Radegast jako bůh
+                        válečníků</h3>
+                    <p style="text-align: center;">
+                        Radegast býval uctíván jako ochránce bojovníků a
+                        válečníků. Věřilo se, že propůjčuje odvahu v boji a
+                        chrání ty, kdo jednají čestně. Byl spojován s vítězstvím
+                        a silou, ale i s udržováním míru v čase hojnosti. Jeho
+                        hněv však mohl být smrtící.
+                    </p>
+                </div>
+                <div class="four columns">
+                    <h3 style="text-align: center;">Bůh hostiny a plodnosti</h3>
+                    <p style="text-align: center;">
+                        Radegast nebyl pouze bohem války, ale také pohostinnosti
+                        a hojnosti. Lidé mu obětovali pokrmy a nápoje, často při
+                        společných oslavách a slavnostech. Roh hojnosti, který
+                        často drží, symbolizuje dary přírody i lidské štědrosti.
+                        Jeho požehnání zajišťovalo úrodu a zdraví.
+                    </p>
+                </div>
+                <div class="four columns">
+                    <h3 style="text-align: center;">Radegast dnes</h3>
+                    <p style="text-align: center;">
+                        Postava Radegasta přežívá do dnešní doby především díky
+                        slavné soše na hoře Radhošť v Beskydech. Je také známý
+                        díky značce piva nesoucí jeho jméno. Jeho odkaz se tak
+                        přenesl do moderní kultury jako symbol síly, odvahy,
+                        tradice a pohostinnosti.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h3 style="text-align: center;">Další mentions</h3>
+            <div
+                style="display: flex; justify-content: center; align-items: center; gap: 10rem; flex-wrap: wrap;">
+                <img src="radegast-socha.jpg" alt="Socha Radegasta"
+                    style="width: 300px; height: auto; display: block;">
+                <img src="radegast.png" alt="Socha Radegasta"
+                    style="width: 300px; height: auto; display: block;">
+            </div>
+        </div>
+        <footer>
+                <p style="margin-left: 10px;">© 2025 Ema Němcová 🥀</p>
+            </footer>
+        <script>
+        function zobrazMenu() {
+            const menu = document.getElementById('menu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+    </body>
+</html>

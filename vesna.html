@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vesna</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="skeleton.css">
+    </head>
+    <body>
+        <div style="position: relative;">
+            <button onclick="zobrazMenu()"
+                style="position: absolute; top: 10px; left: 10px;">Menu</button>
+            <div id="menu"
+                style="display: none; position: absolute; top: 50px; left: 10px; background: white; border: 1px solid #ccc; padding: 0.5rem;">
+                <a href="vesna.html" class="skibidi">Vesna</a><br>
+                <a href="morana.html" class="skibidi">Morana</a><br>
+                <a href="radegast.html" class="skibidi">Radegast</a><br>
+                <a href="triglav.html" class="skibidi">Triglav</a><br>
+                <a href="uvod.html" class="skibidi">Úvod</a>
+            </div>
+        </div>
+            <div style="position: relative;">
+                <img src="vesna-mucha.png" alt
+                    style="position: absolute;top: 30px;right: 30px;max-height: 400px;">
+            </div>
+            <h1 style="font-weight: bold;text-align: center;">Vesna</h1>
+
+            <div class="container">
+                <p style="text-align: center;">Wiosna, Весна<br>Jaro, mládí,
+                    znovuzrození, svěžest, láska, probouzení přírody<br>Symbol
+                    světlé části roku, radosti, optimismu a zdraví<br>V
+                    některých mýtech je Vesna považována za dcera bohyně
+                    Lady<br>V opozici k Vesně často stojí Morana - bohyně zimy a
+                    smrti</p>
+            </div>
+            <div class="container">
+                <div class="four columns">
+                    <h3 style="text-align: center;">Příchod Vesny</h3>
+                    <p style="text-align: center;">Příchod Vesny byl pro naše
+                        předky znamením, že zima je poražena a příroda se
+                        probouzí k životu. Tání sněhu, zpěv ptáků a první květy
+                        byly symbolem její síly. Lidé ji vítali s radostí –
+                        slavnostmi, tancem a zpěvy. V některých oblastech se
+                        dokonce po vynesení Morany prováděl obřad přivítání
+                        Vesny, často s dívkami nesoucími věnce a zelené
+                        ratolesti jako dary novému jaru.</p>
+                </div>
+                <div class="four columns">
+                    <h3 style="text-align: center;">Vesna v lidové
+                        představě</h3>
+                    <p style="text-align: center;">Vesna byla zobrazována jako
+                        mladá dívka – krásná, svěží, obklopená květinami, ptáky
+                        a světlem. Jejím příchodem začíná období růstu a lásky.
+                        Často byla spojována se skřivany a vlaštovkami, kteří se
+                        vracejí na jaře. Její jemná síla spočívá v obrodě a
+                        proměně, nikoli v boji – přesto její návrat znamená
+                        vítězství nad chladem, tmou a smrtí.</p>
+                </div>
+                <div class="four columns">
+                    <h3 style="text-align: center;">Vesna dnes</h3>
+                    <p style="text-align: center;">Přestože byla Vesna v
+                        historii často zastíněna slavnější Moranou, její
+                        přítomnost je stále patrná. V mnoha slovanských jazycích
+                        dodnes slovo „vesna“ znamená jaro. Její symbolika
+                        přežívá v lidových tradicích, poezii a jarních
+                        slavnostech. V moderní kultuře se objevuje jako postava
+                        naděje, proměny a začátku – v knihách, hrách i
+                        folklórních akcích.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <h3 style="text-align: center;">Další mentions</h3>
+            <div
+                style="display: flex; justify-content: center; align-items: flex-start; gap: 1rem; flex-wrap: wrap;">
+                <img src="vesna-mince.jpg" alt="Mince"
+                    style="width: 300px; height: auto; display: block;">
+                <a href="https://www.vesnamusic.com/home"><img
+                        src="vesna-skupina.webp" alt="Skupina"
+                        style="width: 300px; height: auto; display: block;"></a>
+                <img src="vesna-mucha2.jpg" alt="Mucha"
+                    style="width: 300px; height: auto; display: block;">
+            </div>
+        </div>
+        <footer>
+            <p style="margin-left: 10px;">© 2025 Ema Němcová 🥀</p>
+        </footer>
+        <script>
+            function zobrazMenu(){
+            const menu = document.getElementById('menu');
+            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+        }
+        </script>
+    </body>
+</html>

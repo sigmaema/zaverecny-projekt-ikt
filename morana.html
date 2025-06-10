@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Morana</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="skeleton.css">
+    </head>
+    <body>
+        <div style="position: relative;">
+            <button onclick="zobrazMenu()"
+                style="position: absolute; top: 10px; left: 10px;">Menu</button>
+            <div id="menu"
+                style="display: none; position: absolute; top: 50px; left: 10px; background: white; border: 1px solid #ccc; padding: 0.5rem;">
+                <a href="vesna.html" class="skibidi">Vesna</a><br>
+                <a href="morana.html" class="skibidi">Morana</a><br>
+                <a href="radegast.html" class="skibidi">Radegast</a><br>
+                <a href="triglav.html" class="skibidi">Triglav</a><br>
+                <a href="uvod.html" class="skibidi">Úvod</a>
+            </div>
+            <div style="position: relative;">
+                <img src="morana-illustration.png" alt
+                    style="position: absolute;top: 30px;right: 30px;max-height: 400px;">
+            </div>
+            <h1 style="font-weight: bold;text-align: center;">Morana</h1>
+
+            <div class="container">
+                <p style="text-align: center;">Marzanna, Morena, Морена<br>Zima,
+                    smrt, konec života, ticho, temnota<br>Bohyně tmavé poloviny
+                    roku, přechodu a obnovy<br>Bývá ztotožňována s ukončením
+                    cyklu, zánikem a následným znovuzrozením<br>Symbolický
+                    odchod Morany je v mnoha kulturách oslavován rituálem
+                    "vynášení smrti"</p>
+            </div>
+
+            <div class="container">
+                <div class="four columns">
+                    <h3 style="text-align: center;">Rituál vynášení Morany</h3>
+                    <p style="text-align: center;">Morana byla v lidových
+                        zvycích zosobněním zimy a smrti. Její vynášení z vesnice
+                        mělo zajistit konec těžkého a temného období. Figurka
+                        Morany byla vyrobena ze slámy a hadrů, poté byla nesena
+                        za hranice vesnice, spálena nebo utopena. Tento rituál
+                        měl očistný charakter a znamenal otevření cesty jarním
+                        silám.</p>
+                </div>
+                <div class="four columns">
+                    <h3 style="text-align: center;">Podoby Morany</h3>
+                    <p style="text-align: center;">Morana byla často zobrazována
+                        jako bledá žena s temným pohledem, oblečená v černém
+                        rouše nebo v hadrech. Její vzhled měl vzbuzovat respekt
+                        a strach, ale zároveň byla považována za nutnou součást
+                        životního cyklu. Její smrt byla nezbytná, aby mohlo
+                        nastat znovuzrození v podobě Vesny.</p>
+                </div>
+                <div class="four columns">
+                    <h3 style="text-align: center;">Morana v současnosti</h3>
+                    <p style="text-align: center;">Ačkoliv většina moderních
+                        lidí Moranu nezná, v mnoha slovanských regionech se její
+                        symbolika udržuje v podobě jarních obřadů. Vynášení
+                        Morany je i dnes součástí folklórních slavností a
+                        kulturních akcí. Její příběh oslovuje i novodobé umělce,
+                        kteří v ní nacházejí inspiraci pro témata konce, temnoty
+                        a proměny.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <img src="morana-2.jpg" alt
+                style="width: 700px; display: block; margin: 0 auto;">
+        </div>
+        <footer>
+            <p style="margin-left: 10px;">© 2025 Ema Němcová 🥀</p>
+        </footer>
+        <script>
+        function zobrazMenu(){
+            const menu = document.getElementById('menu');
+            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+        }
+    </script>
+    </body>
+</html>
