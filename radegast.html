@@ -8,22 +8,25 @@
         <link rel="stylesheet" href="skeleton.css" />
     </head>
     <body>
-        <div style="position: relative;">
-            <button onclick="zobrazMenu()"
-                style="position: absolute; top: 10px; left: 10px;">Menu</button>
-            <div id="menu"
-                style="display: none; position: absolute; top: 50px; left: 10px; background: white; border: 1px solid #ccc; padding: 0.5rem;">
-                <a href="vesna.html" class="skibidi">Vesna</a><br>
-                <a href="morana.html" class="skibidi">Morana</a><br>
-                <a href="radegast.html" class="skibidi">Radegast</a><br>
-                <a href="triglav.html" class="skibidi">Triglav</a><br>
-                <a href="uvod.html" class="skibidi">Úvod</a>
+        <div class="header">
+            <div class="menu-container">
+                <button onclick="zobrazMenu()">Menu</button>
+                <div id="menu">
+                    <a href="vesna.html" class="skibidi">Vesna</a><br>
+                    <a href="morana.html" class="skibidi">Morana</a><br>
+                    <a href="radegast.html" class="skibidi">Radegast</a><br>
+                    <a href="triglav.html" class="skibidi">Triglav</a><br>
+                    <a href="uvod.html" class="skibidi">Úvod</a>
+                </div>
+            </div>
+
+            <div class="title-container container">
+                <h1 style="font-weight: bold;">Radegast</h1>
             </div>
             <div style="position: relative;">
                 <img src="radegast-pivo.jpeg" alt
                     style="position: absolute; top: 30px; right: -70px; max-height: 400px;">
             </div>
-            <h1 style="font-weight: bold; text-align: center;">Radegast</h1>
 
             <div class="container">
                 <p style="text-align: center;">
@@ -82,8 +85,8 @@
             </div>
         </div>
         <footer>
-                <p style="margin-left: 10px;">© 2025 Ema Němcová 🥀</p>
-            </footer>
+            <p style="margin-left: 10px;">© 2025 Ema Němcová 🥀</p>
+        </footer>
         <script>
         function zobrazMenu() {
             const menu = document.getElementById('menu');
